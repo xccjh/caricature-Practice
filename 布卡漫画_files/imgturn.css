@@ -1,0 +1,55 @@
+/**
+ * 轮播图CSS样式
+ */
+.img-trun-lists {
+  position: relative;
+  width: 880px;
+  height: 200px;
+}
+.img-trun-lists li {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  opcity: 0;
+  display: none;
+}
+.img-trun-lists li:first-child {
+  opcity: 1;
+  display: block;
+}
+.img-trun-icon {
+  float: right;
+  width: 120px;
+  margin-top: 8px;
+}
+.img-trun-icon li {
+  width: 19px;
+  height: 17px;
+  cursor: pointer;
+  margin: 0 5px;
+  float: left;
+}
+.img-trun-icon li.icon_1 {
+  background: url(../img/newicon_20160225.png) no-repeat -67px -265px;
+}
+.img-trun-icon li.icon_1.select {
+  background: url(../img/newicon_20160225.png) no-repeat -68px -283px;
+}
+.img-trun-icon li.icon_2 {
+  background: url(../img/newicon_20160225.png) no-repeat -44px -265px;
+}
+.img-trun-icon li.icon_2.select {
+  background: url(../img/newicon_20160225.png) no-repeat -44px -283px;
+}
+.img-trun-icon li.icon_3 {
+  background: url(../img/newicon_20160225.png) no-repeat -2px -265px;
+}
+.img-trun-icon li.icon_3.select {
+  background: url(../img/newicon_20160225.png) no-repeat -2px -283px;
+}
+.img-trun-icon li.icon_4 {
+  background: url(../img/newicon_20160225.png) no-repeat -23px -265px;
+}
+.img-trun-icon li.icon_4.select {
+  background: url(../img/newicon_20160225.png) no-repeat -23px -283px;
+}
